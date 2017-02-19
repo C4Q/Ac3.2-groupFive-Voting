@@ -71,10 +71,6 @@ class StyleManager {
         proxyTableView.backgroundColor = UIColor.hackathonCream
         proxySectionHeader.tintColor = UIColor.hackathonRed
         
-        proxyCell.preservesSuperviewLayoutMargins = false
-        proxyCell.separatorInset = UIEdgeInsets.zero
-        proxyCell.layoutMargins = UIEdgeInsets.zero
-        
         proxyScrollView.bounces = true
         proxyScrollView.backgroundColor = UIColor.hackathonCream
         proxyScrollView.tintColor = UIColor.hackathonRed

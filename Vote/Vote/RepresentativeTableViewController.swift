@@ -19,11 +19,14 @@ class RepresentativeTableViewController: UITableViewController {
         super.viewDidLoad()
         
         title = "List of Reps"
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title:"", style:.plain, target:nil, action:nil)
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title:"", style: .plain, target:nil, action:nil)
         self.edgesForExtendedLayout = .bottom
         self.tableView.register(RepresentativesTableViewCell.self, forCellReuseIdentifier: cellID)
         self.tableView.estimatedRowHeight = 100
         self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.preservesSuperviewLayoutMargins = false
+        self.tableView.separatorInset = UIEdgeInsets.zero
+        self.tableView.layoutMargins = UIEdgeInsets.zero
     }
 
     func getReps(from zip: String) {
@@ -52,7 +55,6 @@ class RepresentativeTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return office[section].indices.count
     }
-
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! RepresentativesTableViewCell
@@ -86,6 +88,10 @@ class RepresentativeTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
         let header = view as! UITableViewHeaderFooterView
         header.textLabel?.textColor = UIColor.hackathonCream
+        header.textLabel?.lineBreakMode = .byWordWrapping
+        header.textLabel?.numberOfLines = 2
+        header.textLabel?.textAlignment = .center
+        header.textLabel?.adjustsFontForContentSizeCategory = true
     }
     
     /*
@@ -99,3 +105,4 @@ class RepresentativeTableViewController: UITableViewController {
      */
 
 }
+    
