@@ -7,25 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DFE85D01E58EA82003E3FD3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE85CF1E58EA82003E3FD3 /* SearchViewController.swift */; };
+		7DFE85D21E58EAED003E3FD3 /* RepresentativeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE85D11E58EAED003E3FD3 /* RepresentativeTableViewController.swift */; };
+		7DFE85D41E58EB35003E3FD3 /* RepresentativesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE85D31E58EB35003E3FD3 /* RepresentativesTableViewCell.swift */; };
+		7DFE85D61E58EB58003E3FD3 /* RepDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE85D51E58EB58003E3FD3 /* RepDetailsViewController.swift */; };
+		7DFE85D81E58F163003E3FD3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE85D71E58F163003E3FD3 /* WebViewController.swift */; };
+		7DFE85DA1E5906E8003E3FD3 /* ArticlesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE85D91E5906E8003E3FD3 /* ArticlesCollectionViewController.swift */; };
+		814CEBD71E58CA5500614741 /* RepInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CEBD61E58CA5500614741 /* RepInfo.swift */; };
 		819189DF1E58906F0060CFC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819189DE1E58906F0060CFC9 /* AppDelegate.swift */; };
-		819189E11E58906F0060CFC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819189E01E58906F0060CFC9 /* ViewController.swift */; };
 		819189E41E58906F0060CFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819189E21E58906F0060CFC9 /* Main.storyboard */; };
 		819189E61E58906F0060CFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819189E51E58906F0060CFC9 /* Assets.xcassets */; };
 		819189E91E58906F0060CFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819189E71E58906F0060CFC9 /* LaunchScreen.storyboard */; };
+		819189F61E589F8E0060CFC9 /* Election.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819189F51E589F8E0060CFC9 /* Election.swift */; };
+		819189F91E58A2210060CFC9 /* VoterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819189F81E58A2210060CFC9 /* VoterInfo.swift */; };
+		819189FB1E58A2BB0060CFC9 /* PollLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819189FA1E58A2BB0060CFC9 /* PollLocation.swift */; };
+		819189FD1E58A6770060CFC9 /* VoteAdminBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819189FC1E58A6770060CFC9 /* VoteAdminBody.swift */; };
+		819189FF1E58A84F0060CFC9 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819189FE1E58A84F0060CFC9 /* Address.swift */; };
+		81918A011E58BB540060CFC9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81918A001E58BB540060CFC9 /* APIManager.swift */; };
+		81AD80F51E58DBED002D45DF /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AD80F41E58DBED002D45DF /* Article.swift */; };
+		D396A79C1E58F146005F14BA /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396A79B1E58F146005F14BA /* StyleManager.swift */; };
+		D396A79E1E58FDD1005F14BA /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396A79D1E58FDD1005F14BA /* Extension+UIColor.swift */; };
 		D48CB0625C48009591C1326C /* Pods_Vote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B376F65FACDAF0CEA87FB67 /* Pods_Vote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A54C9E3A71C932F259EE168 /* Pods-Vote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vote/Pods-Vote.release.xcconfig"; sourceTree = "<group>"; };
 		7B376F65FACDAF0CEA87FB67 /* Pods_Vote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFE85CF1E58EA82003E3FD3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7DFE85D11E58EAED003E3FD3 /* RepresentativeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeTableViewController.swift; sourceTree = "<group>"; };
+		7DFE85D31E58EB35003E3FD3 /* RepresentativesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativesTableViewCell.swift; sourceTree = "<group>"; };
+		7DFE85D51E58EB58003E3FD3 /* RepDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepDetailsViewController.swift; sourceTree = "<group>"; };
+		7DFE85D71E58F163003E3FD3 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7DFE85D91E5906E8003E3FD3 /* ArticlesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesCollectionViewController.swift; sourceTree = "<group>"; };
+		814CEBD61E58CA5500614741 /* RepInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepInfo.swift; sourceTree = "<group>"; };
 		819189DB1E58906F0060CFC9 /* Vote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819189DE1E58906F0060CFC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		819189E01E58906F0060CFC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		819189E31E58906F0060CFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		819189E51E58906F0060CFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819189E81E58906F0060CFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		819189EA1E58906F0060CFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819189F51E589F8E0060CFC9 /* Election.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Election.swift; sourceTree = "<group>"; };
+		819189F81E58A2210060CFC9 /* VoterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoterInfo.swift; sourceTree = "<group>"; };
+		819189FA1E58A2BB0060CFC9 /* PollLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollLocation.swift; sourceTree = "<group>"; };
+		819189FC1E58A6770060CFC9 /* VoteAdminBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteAdminBody.swift; sourceTree = "<group>"; };
+		819189FE1E58A84F0060CFC9 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		81918A001E58BB540060CFC9 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		81AD80F41E58DBED002D45DF /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		9E8D478BBA950E1869A5C8F0 /* Pods-Vote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vote/Pods-Vote.debug.xcconfig"; sourceTree = "<group>"; };
+		D396A79B1E58F146005F14BA /* StyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
+		D396A79D1E58FDD1005F14BA /* Extension+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +108,7 @@
 		819189DD1E58906F0060CFC9 /* Vote */ = {
 			isa = PBXGroup;
 			children = (
+				819189F71E58A1FE0060CFC9 /* Managers */,
 				819189F41E589DE40060CFC9 /* Model */,
 				819189F01E589DBF0060CFC9 /* Supporting Files */,
 				819189F11E589DC70060CFC9 /* View Controller */,
@@ -93,6 +124,7 @@
 				819189E51E58906F0060CFC9 /* Assets.xcassets */,
 				819189E71E58906F0060CFC9 /* LaunchScreen.storyboard */,
 				819189EA1E58906F0060CFC9 /* Info.plist */,
+				D396A79D1E58FDD1005F14BA /* Extension+UIColor.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -100,7 +132,12 @@
 		819189F11E589DC70060CFC9 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				819189E01E58906F0060CFC9 /* ViewController.swift */,
+				7DFE85CF1E58EA82003E3FD3 /* SearchViewController.swift */,
+				7DFE85D51E58EB58003E3FD3 /* RepDetailsViewController.swift */,
+				7DFE85D11E58EAED003E3FD3 /* RepresentativeTableViewController.swift */,
+				7DFE85D31E58EB35003E3FD3 /* RepresentativesTableViewCell.swift */,
+				7DFE85D71E58F163003E3FD3 /* WebViewController.swift */,
+				7DFE85D91E5906E8003E3FD3 /* ArticlesCollectionViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -116,8 +153,24 @@
 		819189F41E589DE40060CFC9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				819189F51E589F8E0060CFC9 /* Election.swift */,
+				819189F81E58A2210060CFC9 /* VoterInfo.swift */,
+				814CEBD61E58CA5500614741 /* RepInfo.swift */,
+				819189FC1E58A6770060CFC9 /* VoteAdminBody.swift */,
+				819189FA1E58A2BB0060CFC9 /* PollLocation.swift */,
+				819189FE1E58A84F0060CFC9 /* Address.swift */,
+				81AD80F41E58DBED002D45DF /* Article.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		819189F71E58A1FE0060CFC9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				81918A001E58BB540060CFC9 /* APIManager.swift */,
+				D396A79B1E58F146005F14BA /* StyleManager.swift */,
+			);
+			name = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +296,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				819189E11E58906F0060CFC9 /* ViewController.swift in Sources */,
+				81918A011E58BB540060CFC9 /* APIManager.swift in Sources */,
+				7DFE85D01E58EA82003E3FD3 /* SearchViewController.swift in Sources */,
+				7DFE85D21E58EAED003E3FD3 /* RepresentativeTableViewController.swift in Sources */,
+				7DFE85DA1E5906E8003E3FD3 /* ArticlesCollectionViewController.swift in Sources */,
+				7DFE85D41E58EB35003E3FD3 /* RepresentativesTableViewCell.swift in Sources */,
 				819189DF1E58906F0060CFC9 /* AppDelegate.swift in Sources */,
+				819189F91E58A2210060CFC9 /* VoterInfo.swift in Sources */,
+				7DFE85D81E58F163003E3FD3 /* WebViewController.swift in Sources */,
+				7DFE85D61E58EB58003E3FD3 /* RepDetailsViewController.swift in Sources */,
+				81AD80F51E58DBED002D45DF /* Article.swift in Sources */,
+				819189FB1E58A2BB0060CFC9 /* PollLocation.swift in Sources */,
+				819189F61E589F8E0060CFC9 /* Election.swift in Sources */,
+				819189FD1E58A6770060CFC9 /* VoteAdminBody.swift in Sources */,
+				D396A79E1E58FDD1005F14BA /* Extension+UIColor.swift in Sources */,
+				814CEBD71E58CA5500614741 /* RepInfo.swift in Sources */,
+				819189FF1E58A84F0060CFC9 /* Address.swift in Sources */,
+				D396A79C1E58F146005F14BA /* StyleManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.liamkane.Vote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -382,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.liamkane.Vote;
 				PRODUCT_NAME = "$(TARGET_NAME)";

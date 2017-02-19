@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var zip: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        zip = "90403"
+        APIRequestManager.manager.getRepInfo(endPoint: "https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyBU0xkqxzxgDJfcSabEFYMXD9M-i8ugdGo&address=\(self.zip)") { (info) in
+            dump(info)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
